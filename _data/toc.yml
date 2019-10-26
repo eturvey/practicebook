@@ -22,9 +22,43 @@
 # See the links below for an example.
 
 # Top-level page
-- title: Simulations
-  url: /sim
+- title: Getting Started
+  url: /index
   not_numbered: true
+- title: Symbulate Objects & The Probability World
+  url: /symobj
+  not_numbered: true
+  sections:
+  - title: Probability Spaces
+    url: /probspace
+    not_numbered: true
+  - title: Random Variables
+    url: /rv
+    not_numbered: true
+  - title: Events
+    #url: /event
+    not_numbered: true
+  - title: Random Processes
+    url: /process
+    not_numbered: true
+  - title: Transformations
+    #url: /trans
+    not_numbered: true
+  - title: Slicing/Unpacking
+    #url: /unpack
+    not_numbered: true
+  - title: Joining
+    #url: /join
+    not_numbered: true
+
+# Top-level page
+- title: Simulation World
+  not_numbered: true
+  sections:
+  - title: Probability Spaces
+    url: /probspace
+    not_numbered: true
+
 
 
 # Adds a searchbar link
@@ -34,6 +68,5 @@
 # Divider for meta-pages and content page
 - divider: true
 
-# Add a header and sample content section
-- header: Symbulate!
+
 
