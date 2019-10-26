@@ -26,7 +26,7 @@
   url: /index
   not_numbered: true
 - title: Symbulate Objects & The Probability World
-  url: /symobj
+  url: /probspace
   not_numbered: true
   sections:
   - title: Probability Spaces
