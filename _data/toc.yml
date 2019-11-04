@@ -26,7 +26,7 @@
   url: /index
   not_numbered: true
 - title: Symbulate Objects & The Probability World
-  url: /probspace
+  url: /symobj
   not_numbered: true
   sections:
   - title: Probability Spaces
@@ -53,10 +53,11 @@
 
 # Top-level page
 - title: Simulation World
+  url: /simworld
   not_numbered: true
   sections:
-  - title: Probability Spaces
-    url: /probspace
+  - title: Simulations
+    url: /sim
     not_numbered: true
 
 
