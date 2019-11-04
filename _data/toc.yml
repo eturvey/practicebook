@@ -36,19 +36,19 @@
     url: /rv
     not_numbered: true
   - title: Events
-    #url: /event
+    #url: /symobj
     not_numbered: true
   - title: Random Processes
     url: /process
     not_numbered: true
   - title: Transformations
-    #url: /trans
+    #url: /symobj
     not_numbered: true
   - title: Slicing/Unpacking
-    #url: /unpack
+    #url: /symobj
     not_numbered: true
   - title: Joining
-    #url: /join
+    #url: /symobj
     not_numbered: true
 
 # Top-level page
@@ -59,12 +59,144 @@
   - title: Simulations
     url: /sim
     not_numbered: true
+  - title: Space Operations
+    url: /symobj
+    not_numbered: true
+  - title: Vectorized Operations
+    url: /symobj
+    not_numbered: true
+  - title: Transformations
+    url: /symobj
+    not_numbered: true
+  - title: Slicing
+    url: /symobj
+    not_numbered: true
+  - title: Filter
+    url: /symobj
+    not_numbered: true
+
+# Top-level page
+- title: Summarizing Simulations
+  url: /common_general_comments
+  not_numbered: true
+  sections:
+  - title: Tabulate
+    url: /symobj
+    not_numbered: true
+  - title: Count
+    url: /symobj
+    not_numbered: true
+  - title: Mean
+    url: /symobj
+    not_numbered: true
+  - title: Variance
+    url: /symobj
+    not_numbered: true
+  - title: Standard Deviation
+    url: /symobj
+    not_numbered: true
+  - title: Covariance
+    url: /symobj
+    not_numbered: true
+  - title: Correlation
+    url: /symobj
+    not_numbered: true
+  
+# Top-level page
+- title: Graphics
+  url: /graphics
+  not_numbered: true
+  sections:
+  - title: Rug
+    url: /symobj
+    not_numbered: true
+  - title: Impulse
+    url: /symobj
+    not_numbered: true
+  - title: Histogram
+    url: /symobj
+    not_numbered: true
+  - title: Density
+    url: /symobj
+    not_numbered: true
+  - title: Scatter Plot
+    url: /symobj
+    not_numbered: true
+  - title: Tile
+    url: /symobj
+    not_numbered: true
+  - title: 2D Histogram
+    url: /symobj
+    not_numbered: true
+  - title: 2D Density
+    url: /symobj
+    not_numbered: true
+  - title: Marginal
+    url: /symobj
+    not_numbered: true
+  - title: Jitter
+    url: /symobj
+    not_numbered: true
+  - title: Sample Path
+    url: /symobj
+    not_numbered: true
+  - title: Spaghetti 
+    url: /symobj
+    not_numbered: true
+
+# Top-level page
+- title: Conditional Random Variables
+  url: /condtioning
+  not_numbered: true
+
+# Top-level page
+- title: Custom Probability Spaces
+  url: /simworld
+  not_numbered: true
+  sections:
+  - title: AssumeIndependent
+    url: /symobj
+    not_numbered: true
+  - title: Custom Spaces
+    url: /symobj
+    not_numbered: true
+
+
+# Top-level page
+- title: Common Discrete Models
+  url: /Common_discrete
+  not_numbered: true
+
+# Top-level page
+- title: Common Continuous Models
+  url: /common_continuous
+  not_numbered: true
+
+# Top-level page
+- title: Common Joint Models
+  url: /common_joint
+  not_numbered: true
+  sections:
+  - title: Use this!
+    url: /joint
+    not_numbered: true
+
+# Top-level page
+- title: Random Processes
+  url: /symobj
+  not_numbered: true
+
+# Top-level page
+- title: Common Random Processes
+  url: /common_random
+  not_numbered: true
+  sections:
+  - title: Markov Processes
+    url: /mc
+    not_numbered: true
 
 
 
-# Adds a searchbar link
-- title: Search
-  search: true
 
 # Divider for meta-pages and content page
 - divider: true
