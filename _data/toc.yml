@@ -146,7 +146,7 @@
 
 # Top-level page
 - title: Conditional Random Variables
-  url: /condtioning
+  url: /conditioning
   not_numbered: true
 
 # Top-level page
@@ -164,7 +164,7 @@
 
 # Top-level page
 - title: Common Discrete Models
-  url: /Common_discrete
+  url: /common_discrete
   not_numbered: true
 
 # Top-level page
